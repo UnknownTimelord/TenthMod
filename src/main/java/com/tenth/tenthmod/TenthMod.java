@@ -1,5 +1,6 @@
 package com.tenth.tenthmod;
 
+import com.tenth.tenthmod.setup.Register;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -11,10 +12,12 @@ import org.apache.logging.log4j.Logger;
 
 @Mod(TenthMod.MOD_ID)
 public class TenthMod {
+
     public static final String MOD_ID = "tenthmod";
     private static final Logger LOGGER = LogManager.getLogger();
 
     public TenthMod() {
+        Register.init();
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::setup);
         MinecraftForge.EVENT_BUS.register(this);

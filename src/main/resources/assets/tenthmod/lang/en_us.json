@@ -1,0 +1,11 @@
+{
+  "itemGroup.tenthmod": "Tenth Mod",
+
+  "item.tenthmod.raw_vortex": "Raw Vortex",
+  "item.tenthmod.vortex": "Vortex Ingot",
+  "item.tenthmod.time_cell": "Time Cell",
+  "item.tenthmod.chronal_utilizer": "Chronal Utilizer",
+
+  "block.tenthmod.vortex_ore": "Vortex Ore",
+  "block.tenthmod.vortex_furnace": "Vortex Furnace"
+}
