@@ -20,6 +20,7 @@ public class TenthMod {
         MinecraftForge.EVENT_BUS.register(this);
     }
 
+    // added a comment
     private void setup(final FMLCommonSetupEvent event) {
         LOGGER.info("HELLO FROM PREINIT");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());

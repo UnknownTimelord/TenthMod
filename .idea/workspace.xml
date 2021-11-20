@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0fd6116-7a75-466d-b699-75f48840f9e2" name="Changes" comment="" />
+    <list default="true" id="a0fd6116-7a75-466d-b699-75f48840f9e2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/TenthMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/TenthMod.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
