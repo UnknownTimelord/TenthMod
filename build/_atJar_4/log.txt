@@ -1,0 +1,7 @@
+Java Launcher: C:\Program Files\Eclipse Foundation\jdk-16.0.2.7-hotspot\bin\java.exe
+Arguments: '--inJar, C:\Users\amyst\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.17.1-37.0.109\forge-1.17.1-37.0.109-injected.jar, --outJar, C:\Users\amyst\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.17.1-37.0.109_mapped_official_1.17.1\forge-1.17.1-37.0.109_mapped_official_1.17.1.jar, --logFile, accesstransform.log, --atFile, C:\Users\amyst\Documents\tenth-mod\build\_atJar_4\parent_at.cfg'
+Classpath:
+ - C:\Users\amyst\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\3.0.1\accesstransformers-3.0.1-fatjar.jar
+Working directory: C:\Users\amyst\Documents\tenth-mod\build\_atJar_4
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================
