@@ -29,6 +29,7 @@ public class TenthMod {
 
     private void setupClient(final FMLClientSetupEvent event) {
         ItemBlockRenderTypes.setRenderLayer(Register.VORTEX_FURNACE.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(Register.TORMENT_BLOCK.get(), RenderType.translucent());
     }
 
     private void setup(final FMLCommonSetupEvent event) {
