@@ -3,9 +3,15 @@
 
   "item.tenthmod.raw_vortex": "Raw Vortex",
   "item.tenthmod.vortex": "Vortex Ingot",
+  "item.tenthmod.torment": "Torment",
+
   "item.tenthmod.time_cell": "Time Cell",
   "item.tenthmod.chronal_utilizer": "Chronal Utilizer",
 
   "block.tenthmod.vortex_ore": "Vortex Ore",
-  "block.tenthmod.vortex_furnace": "Vortex Furnace"
+  "block.tenthmod.torment_block": "Torment Block",
+
+  "block.tenthmod.vortex_furnace": "Vortex Furnace",
+
+  "death.attack.Torment Block": "%1$s was tormented."
 }

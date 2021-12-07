@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0fd6116-7a75-466d-b699-75f48840f9e2" name="Changes" comment="removed test comment :)">
-      <change afterPath="$PROJECT_DIR$/.idea/TenthMod.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/blockentities/VortexFurnaceEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/blocks/VortexFurnace.java" afterDir="false" />
+    <list default="true" id="a0fd6116-7a75-466d-b699-75f48840f9e2" name="Changes" comment="TestWorld">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/blockentities/TormentBlockEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/blocks/TormentBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/blockstates/torment_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/block/torment_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/item/torment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/item/torment_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tenthmod/recipes/torment_block.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
@@ -20,34 +23,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_applyBinpatches_2/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/_applyBinpatches_2/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_atJar_4/accesstransform.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/_atJar_4/accesstransform.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_atJar_4/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/_atJar_4/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_atJar_4/parent_at.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/build/_atJar_4/parent_at.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tenth/tenthmod/TenthMod.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/tenth/tenthmod/TenthMod.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tenth/tenthmod/setup/Register$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/tenth/tenthmod/setup/Register$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tenth/tenthmod/setup/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/tenth/tenthmod/setup/Register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classpath/runData_minecraftClasspath.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/classpath/runData_minecraftClasspath.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classpath/runServer_minecraftClasspath.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/classpath/runServer_minecraftClasspath.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/createSrgToMcp/output.srg" beforeDir="false" afterPath="$PROJECT_DIR$/build/createSrgToMcp/output.srg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extractSrg/output.srg" beforeDir="false" afterPath="$PROJECT_DIR$/build/extractSrg/output.srg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tenthmod/textures/blocks/vortex_furnace.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tenthmod/textures/blocks/vortex_furnace.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloadMCMeta/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/downloadMCMeta/version.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tenthmod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tenthmod/lang/en_us.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-19-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-19-10.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-19-10.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-19-11.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-19-11.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-19-12.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-19-12.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-19-13.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-19-13.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-19-14.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-19-14.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-19-15.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-19-15.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-19-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-19-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-19-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-19-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-19-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-19-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-19-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-19-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-19-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-19-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-19-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-19-7.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-19-8.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-19-8.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-19-9.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-19-9.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -66,11 +46,14 @@
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/poi/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/poi/r.-1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Testing World/region/r.-1.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/region/r.-1.1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Testing World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Testing World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Testing World/region/r.0.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/region/r.0.1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/TenthMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/TenthMod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/setup/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/setup/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/textures/blocks/vortex_furnace.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/textures/blocks/vortex_furnace.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/lang/en_us.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,10 +115,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/item" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\amyst\Documents\TenthMod\src\main\resources\assets\tenthmod\models\item" />
+      <recent name="C:\Users\amyst\Documents\TenthMod\src\main\resources\assets\tenthmod\blockstates" />
+      <recent name="C:\Users\amyst\Documents\TenthMod\src\main\resources\assets\tenthmod\models\block" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\amyst\Documents\TenthMod\src\main\resources\assets\tenthmod" />
     </key>
