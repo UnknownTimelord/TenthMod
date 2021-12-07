@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0fd6116-7a75-466d-b699-75f48840f9e2" name="Changes" comment="TestWorld">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/blockentities/TormentBlockEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/blocks/TormentBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/blockstates/torment_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/block/torment_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/item/torment.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/item/torment_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tenthmod/recipes/torment_block.json" afterDir="false" />
+    <list default="true" id="a0fd6116-7a75-466d-b699-75f48840f9e2" name="Changes" comment="Added Torment item and Torment Block&#10;-Torment Block&#10;* Does damage to entities touching it">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/blockstates/flesh_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/block/flesh_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/item/flesh_block.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
@@ -20,13 +16,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tenth/tenthmod/setup/Register$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/tenth/tenthmod/setup/Register$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tenth/tenthmod/setup/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/tenth/tenthmod/setup/Register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/downloadMCMeta/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/downloadMCMeta/version.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tenthmod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tenthmod/lang/en_us.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
@@ -45,15 +37,18 @@
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/poi/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/poi/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Testing World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/region/r.-1.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Testing World/region/r.-1.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/region/r.-1.1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/region/r.0.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Testing World/region/r.0.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/region/r.0.1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/blocks/TormentBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/blocks/TormentBlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/setup/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/setup/Register.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/block/torment_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/block/torment_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/block/vortex_furnace.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/block/vortex_furnace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/item/vortex_furnace.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/item/vortex_furnace.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,13 +110,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/item" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/assets/tenthmod/blockstates" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\amyst\Documents\TenthMod\src\main\resources\assets\tenthmod\models\item" />
       <recent name="C:\Users\amyst\Documents\TenthMod\src\main\resources\assets\tenthmod\blockstates" />
+      <recent name="C:\Users\amyst\Documents\TenthMod\src\main\resources\assets\tenthmod\models\item" />
       <recent name="C:\Users\amyst\Documents\TenthMod\src\main\resources\assets\tenthmod\models\block" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -179,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637375208109</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Torment item and Torment Block&#10;-Torment Block&#10;* Does damage to entities touching it">
+      <created>1638837530281</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638837530281</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +200,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added a comment (test)" />
     <MESSAGE value="removed test comment :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed test comment :)" />
+    <MESSAGE value="Added Torment item and Torment Block&#10;-Torment Block&#10;* Does damage to entities touching it" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Torment item and Torment Block&#10;-Torment Block&#10;* Does damage to entities touching it" />
   </component>
 </project>

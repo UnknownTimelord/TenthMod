@@ -12,6 +12,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.OreBlock;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -39,7 +40,6 @@ public class Register {
     // Items
     public static final RegistryObject<Item> RAW_VORTEX = ITEMS.register("raw_vortex", ()-> new Item(new Item.Properties().tab(TENTH_MOD_TAB)));
     public static final RegistryObject<Item> VORTEX = ITEMS.register("vortex", ()-> new Item(new Item.Properties().tab(TENTH_MOD_TAB)));
-    public static final RegistryObject<Item> TORMENT = ITEMS.register("torment", ()->new Item(new Item.Properties().tab(TENTH_MOD_TAB)));
 
     // Special Items
     public static final RegistryObject<Item> TIME_CELL = ITEMS.register("time_cell", ()-> new Item(new Item.Properties().tab(TENTH_MOD_TAB)));
@@ -48,8 +48,10 @@ public class Register {
     // Blocks
     public static final RegistryObject<Block> VORTEX_ORE = BLOCKS.register("vortex_ore", ()-> new OreBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(5.0f), UniformInt.of(3, 3)));
     public static final RegistryObject<Item> VORTEX_ORE_ITEM = ITEMS.register("vortex_ore", ()-> new BlockItem(Register.VORTEX_ORE.get(), new Item.Properties().tab(TENTH_MOD_TAB)));
-    public static final RegistryObject<Block> TORMENT_BLOCK = BLOCKS.register("torment_block", ()-> new TormentBlock(BlockBehaviour.Properties.of(Material.DIRT).requiresCorrectToolForDrops().strength(1.0f).noOcclusion().noCollission()));
+    public static final RegistryObject<Block> TORMENT_BLOCK = BLOCKS.register("torment_block", ()-> new TormentBlock(BlockBehaviour.Properties.of(Material.DIRT).sound(SoundType.SOUL_SOIL).requiresCorrectToolForDrops().strength(1.0f).noOcclusion()));
     public static final RegistryObject<Item> TORMENT_BLOCK_ITEM = ITEMS.register("torment_block", ()-> new BlockItem(Register.TORMENT_BLOCK.get(), new Item.Properties().tab(TENTH_MOD_TAB)));
+    public static final RegistryObject<Block> FLESH_BLOCK = BLOCKS.register("flesh_block", ()-> new Block(BlockBehaviour.Properties.of(Material.DIRT).sound(SoundType.SOUL_SOIL).requiresCorrectToolForDrops().strength(1.0f)));
+    public static final RegistryObject<Item> FLESH_BLOCK_ITEM = ITEMS.register("flesh_block", ()-> new BlockItem(Register.FLESH_BLOCK.get(), new Item.Properties().tab(TENTH_MOD_TAB)));
 
     // Special Blocks
     public static final RegistryObject<Block> VORTEX_FURNACE = BLOCKS.register("vortex_furnace", ()-> new VortexFurnace(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(5.0f).noOcclusion()));

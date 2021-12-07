@@ -1,40 +1,40 @@
-[06Dec2021 17:30:11.530] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.17, --assetsDir, C:\Users\amyst\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 37.0.109, --fml.mcVersion, 1.17.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210706.113038]
-[06Dec2021 17:30:11.533] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.0.7+91+master.8569cdf starting: java version 16.0.2 by Eclipse Foundation
-[06Dec2021 17:30:11.617] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=union:/C:/Users/amyst/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.4/4ec7d77d9ab32596ca0b78bb123956734767e3a/mixin-0.8.4.jar%2325! Service=ModLauncher Env=CLIENT
-[06Dec2021 17:30:12.768] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\amyst\.gradle\caches\forge_gradle\assets, --assetIndex, 1.17]
-[17:30:16] [Render thread/WARN]: Assets URL 'union:/C:/Users/amyst/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.17.1-37.0.109_mapped_official_1.17.1/forge-1.17.1-37.0.109_mapped_official_1.17.1-recomp.jar%2375!/assets/.mcassetsroot' uses unexpected schema
-[17:30:16] [Render thread/WARN]: Assets URL 'union:/C:/Users/amyst/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.17.1-37.0.109_mapped_official_1.17.1/forge-1.17.1-37.0.109_mapped_official_1.17.1-recomp.jar%2375!/data/.mcassetsroot' uses unexpected schema
-[06Dec2021 17:30:16.553] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:30:16] [Render thread/INFO]: Setting user: Dev
-[17:30:16] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 SNAPSHOT
-[17:30:17] [modloading-worker-2/INFO]: Forge mod loading, version 37.0.109, for MC 1.17.1 with MCP 20210706.113038
-[17:30:17] [modloading-worker-2/INFO]: MinecraftForge v37.0.109 Initialized
-[06Dec2021 17:30:18.130] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[17:30:18] [Render thread/INFO]: Reloading ResourceManager: Default, Mod Resources
-[17:30:18] [Worker-Main-8/INFO]: HELLO FROM PREINIT
-[17:30:18] [Worker-Main-8/INFO]: DIRT BLOCK >> minecraft:dirt
-[06Dec2021 17:30:18.249] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[06Dec2021 17:30:19.527] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 37.0.109 Target: 37.1.0
-[17:30:24] [Render thread/INFO]: OpenAL initialized.
-[17:30:24] [Render thread/INFO]: Sound engine started
-[17:30:24] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[17:30:24] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[17:30:24] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[17:30:24] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[17:30:24] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[17:30:24] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[17:30:24] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[17:30:25] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[17:30:25] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[17:30:25] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[17:30:27] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[17:30:29] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[17:30:29] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[17:30:29] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[17:30:29] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[17:30:29] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[17:30:29] [Render thread/INFO]: Reloading ResourceManager: Default, , main
-[17:30:30] [Worker-Main-12/ERROR]: Couldn't parse data file tenthmod:torment_block from tenthmod:recipes/torment_block.json
+[07Dec2021 13:29:46.334] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.17, --assetsDir, C:\Users\amyst\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 37.0.109, --fml.mcVersion, 1.17.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210706.113038]
+[07Dec2021 13:29:46.337] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.0.7+91+master.8569cdf starting: java version 16.0.2 by Eclipse Foundation
+[07Dec2021 13:29:46.423] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=union:/C:/Users/amyst/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.4/4ec7d77d9ab32596ca0b78bb123956734767e3a/mixin-0.8.4.jar%2325! Service=ModLauncher Env=CLIENT
+[07Dec2021 13:29:47.528] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\amyst\.gradle\caches\forge_gradle\assets, --assetIndex, 1.17]
+[13:29:50] [Render thread/WARN]: Assets URL 'union:/C:/Users/amyst/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.17.1-37.0.109_mapped_official_1.17.1/forge-1.17.1-37.0.109_mapped_official_1.17.1-recomp.jar%2375!/assets/.mcassetsroot' uses unexpected schema
+[13:29:50] [Render thread/WARN]: Assets URL 'union:/C:/Users/amyst/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.17.1-37.0.109_mapped_official_1.17.1/forge-1.17.1-37.0.109_mapped_official_1.17.1-recomp.jar%2375!/data/.mcassetsroot' uses unexpected schema
+[07Dec2021 13:29:50.912] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:29:50] [Render thread/INFO]: Setting user: Dev
+[13:29:51] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 SNAPSHOT
+[13:29:51] [modloading-worker-2/INFO]: Forge mod loading, version 37.0.109, for MC 1.17.1 with MCP 20210706.113038
+[13:29:51] [modloading-worker-2/INFO]: MinecraftForge v37.0.109 Initialized
+[07Dec2021 13:29:52.300] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[13:29:52] [Render thread/INFO]: Reloading ResourceManager: Default, Mod Resources
+[13:29:52] [Worker-Main-8/INFO]: HELLO FROM PREINIT
+[13:29:52] [Worker-Main-8/INFO]: DIRT BLOCK >> minecraft:dirt
+[07Dec2021 13:29:52.399] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[07Dec2021 13:29:53.140] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 37.0.109 Target: 37.1.0
+[13:29:58] [Render thread/INFO]: OpenAL initialized.
+[13:29:58] [Render thread/INFO]: Sound engine started
+[13:29:58] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[13:29:58] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[13:29:58] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[13:29:58] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[13:29:58] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[13:29:58] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[13:29:58] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[13:29:59] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[13:29:59] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[13:29:59] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[13:29:59] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[13:30:05] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:30:05] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:30:05] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:30:05] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:30:05] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:30:05] [Render thread/INFO]: Reloading ResourceManager: Default, , main
+[13:30:06] [Worker-Main-9/ERROR]: Couldn't parse data file tenthmod:torment_block from tenthmod:recipes/torment_block.json
 com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
 	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:409) ~[forge-1.17.1-37.0.109_mapped_official_1.17.1-recomp.jar%2375!:?]
 	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:446) ~[forge-1.17.1-37.0.109_mapped_official_1.17.1-recomp.jar%2375!:?]
@@ -57,16 +57,16 @@ Caused by: java.io.EOFException: End of input at line 1 column 1 path $
 	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar%2327!:?]
 	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:407) ~[forge-1.17.1-37.0.109_mapped_official_1.17.1-recomp.jar%2375!:?]
 	... 11 more
-[17:30:30] [Render thread/INFO]: Loaded 7 recipes
-[17:30:31] [Render thread/INFO]: Loaded 1137 advancements
-[17:30:31] [Render thread/INFO]: Injecting existing registry data into this CLIENT instance
-[17:30:32] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[17:30:32] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[17:30:32] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[17:30:32] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[17:30:32] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[17:30:32] [Render thread/INFO]: Reloading ResourceManager: Default, , main
-[17:30:33] [Worker-Main-11/ERROR]: Couldn't parse data file tenthmod:torment_block from tenthmod:recipes/torment_block.json
+[13:30:06] [Render thread/INFO]: Loaded 7 recipes
+[13:30:07] [Render thread/INFO]: Loaded 1137 advancements
+[13:30:07] [Render thread/INFO]: Injecting existing registry data into this CLIENT instance
+[13:30:07] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:30:07] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:30:07] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:30:07] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:30:07] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:30:07] [Render thread/INFO]: Reloading ResourceManager: Default, , main
+[13:30:08] [Worker-Main-12/ERROR]: Couldn't parse data file tenthmod:torment_block from tenthmod:recipes/torment_block.json
 com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
 	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:409) ~[forge-1.17.1-37.0.109_mapped_official_1.17.1-recomp.jar%2375!:?]
 	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:446) ~[forge-1.17.1-37.0.109_mapped_official_1.17.1-recomp.jar%2375!:?]
@@ -89,120 +89,42 @@ Caused by: java.io.EOFException: End of input at line 1 column 1 path $
 	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar%2327!:?]
 	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:407) ~[forge-1.17.1-37.0.109_mapped_official_1.17.1-recomp.jar%2375!:?]
 	... 11 more
-[17:30:33] [Render thread/INFO]: Loaded 7 recipes
-[17:30:33] [Render thread/INFO]: Loaded 1137 advancements
-[17:30:34] [Render thread/INFO]: Injecting existing registry data into this CLIENT instance
-[06Dec2021 17:30:34.551] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:30:34] [Server thread/INFO]: Starting integrated minecraft server version 1.17.1
-[17:30:34] [Server thread/INFO]: Generating keypair
-[17:30:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:30:34] [Render thread/INFO]: Preparing spawn area: 0%
-[17:30:35] [Render thread/INFO]: Preparing spawn area: 5%
-[17:30:35] [Render thread/INFO]: Preparing spawn area: 38%
-[17:30:36] [Render thread/INFO]: Time elapsed: 1409 ms
-[17:30:36] [Server thread/INFO]: Changing view distance to 7, from 10
-[17:30:37] [Netty Local Client IO #0/INFO]: Connected to a modded server.
-[17:30:37] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@50225936
-[17:30:37] [Server thread/INFO]: Dev[local:E:282d7e16] logged in with entity id 48 at (-196.053052282642, 4.0, 213.9606241902197)
-[17:30:37] [Server thread/INFO]: Dev joined the game
-[17:30:37] [Server thread/INFO]: Saving and pausing game...
-[17:30:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testing World]'/minecraft:overworld
-[17:30:37] [Render thread/INFO]: Loaded 129 advancements
-[17:30:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testing World]'/minecraft:the_nether
-[17:30:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testing World]'/minecraft:the_end
-[17:31:07] [Server thread/INFO]: Dev was tormented.
-[17:31:07] [Render thread/INFO]: [CHAT] Dev was tormented.
-[17:31:16] [Server thread/INFO]: [Dev: Set own game mode to Creative Mode]
-[17:31:16] [Render thread/INFO]: [CHAT] Set own game mode to Creative Mode
-[17:31:43] [Server thread/INFO]: Named entity Rabbit['bunny'/144, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:45] [Server thread/INFO]: Named entity Rabbit['bunny'/148, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:45] [Server thread/INFO]: Named entity Rabbit['bunny'/150, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:45] [Server thread/INFO]: Named entity Rabbit['bunny'/152, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:46] [Server thread/INFO]: Named entity Rabbit['bunny'/154, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:46] [Server thread/INFO]: Named entity Rabbit['bunny'/156, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:48] [Server thread/INFO]: Named entity Rabbit['bunny'/172, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:49] [Server thread/INFO]: Named entity Rabbit['bunny'/176, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:49] [Server thread/INFO]: Named entity Rabbit['bunny'/180, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:50] [Server thread/INFO]: Named entity Rabbit['bunny'/182, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:50] [Server thread/INFO]: Named entity Rabbit['bunny'/184, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:50] [Server thread/INFO]: Named entity Rabbit['bunny'/186, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:50] [Server thread/INFO]: Named entity Rabbit['bunny'/188, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:50] [Server thread/INFO]: Named entity Rabbit['bunny'/194, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:51] [Server thread/INFO]: Named entity Rabbit['bunny'/198, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:51] [Server thread/INFO]: Named entity Rabbit['bunny'/202, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:51] [Server thread/INFO]: Named entity Rabbit['bunny'/206, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:51] [Server thread/INFO]: Named entity Rabbit['bunny'/210, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:51] [Server thread/INFO]: Named entity Rabbit['bunny'/212, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:52] [Server thread/INFO]: Named entity Rabbit['bunny'/214, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:52] [Server thread/INFO]: Named entity Rabbit['bunny'/220, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:52] [Server thread/INFO]: Named entity Rabbit['bunny'/222, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:52] [Server thread/INFO]: Named entity Rabbit['bunny'/224, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:52] [Server thread/INFO]: Named entity Rabbit['bunny'/228, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:53] [Server thread/INFO]: Named entity Rabbit['bunny'/232, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:53] [Server thread/INFO]: Named entity Rabbit['bunny'/238, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:53] [Server thread/INFO]: Named entity Rabbit['bunny'/242, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:31:53] [Server thread/INFO]: Named entity Rabbit['bunny'/246, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:01] [Server thread/INFO]: Named entity Rabbit['bunny'/266, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:07] [Server thread/INFO]: Named entity Rabbit['bunny'/274, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:07] [Server thread/INFO]: Named entity Rabbit['bunny'/276, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:08] [Server thread/INFO]: Named entity Rabbit['bunny'/278, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:08] [Server thread/INFO]: Named entity Rabbit['bunny'/280, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:08] [Server thread/INFO]: Named entity Rabbit['bunny'/282, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:08] [Server thread/INFO]: Named entity Rabbit['bunny'/284, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:08] [Server thread/INFO]: Named entity Rabbit['bunny'/288, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:09] [Server thread/INFO]: Named entity Rabbit['bunny'/292, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:09] [Server thread/INFO]: Named entity Rabbit['bunny'/298, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:09] [Server thread/INFO]: Named entity Rabbit['bunny'/304, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:09] [Server thread/INFO]: Named entity Rabbit['bunny'/308, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:09] [Server thread/INFO]: Named entity Rabbit['bunny'/314, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:10] [Server thread/INFO]: Named entity Rabbit['bunny'/320, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:10] [Server thread/INFO]: Named entity Rabbit['bunny'/322, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:10] [Server thread/INFO]: Named entity Rabbit['bunny'/324, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:10] [Server thread/INFO]: Named entity Rabbit['bunny'/328, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:10] [Server thread/INFO]: Named entity Rabbit['bunny'/334, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:11] [Server thread/INFO]: Named entity Rabbit['bunny'/338, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:11] [Server thread/INFO]: Named entity Rabbit['bunny'/342, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:11] [Server thread/INFO]: Named entity Rabbit['bunny'/347, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:11] [Server thread/INFO]: Named entity Rabbit['bunny'/351, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:11] [Server thread/INFO]: Named entity Rabbit['bunny'/355, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:12] [Server thread/INFO]: Named entity Rabbit['bunny'/359, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:12] [Server thread/INFO]: Named entity Rabbit['bunny'/363, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:12] [Server thread/INFO]: Named entity Rabbit['bunny'/365, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:12] [Server thread/INFO]: Named entity Rabbit['bunny'/367, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:12] [Server thread/INFO]: Named entity Rabbit['bunny'/371, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:13] [Server thread/INFO]: Named entity Rabbit['bunny'/375, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:13] [Server thread/INFO]: Named entity Rabbit['bunny'/377, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:13] [Server thread/INFO]: Named entity Rabbit['bunny'/383, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:13] [Server thread/INFO]: Named entity Rabbit['bunny'/389, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was tormented.
-[17:32:19] [Server thread/INFO]: Named entity Rabbit['bunny'/410, l='ServerLevel[Testing World]', x=-194.50, y=4.00, z=213.50] died: bunny was slain by Dev using [bunny]
-[17:32:19] [Render thread/INFO]: Loaded 147 advancements
-[17:32:20] [Render thread/INFO]: Loaded 148 advancements
-[17:32:39] [Server thread/INFO]: Named entity Rabbit['bunny'/433, l='ServerLevel[Testing World]', x=-197.99, y=4.00, z=214.13] died: bunny was tormented.
-[17:32:42] [Server thread/INFO]: Named entity Rabbit['bunny'/437, l='ServerLevel[Testing World]', x=-196.12, y=4.00, z=215.12] died: bunny was tormented.
-[17:32:42] [Server thread/INFO]: Named entity Rabbit['bunny'/425, l='ServerLevel[Testing World]', x=-195.96, y=4.20, z=214.86] died: bunny was tormented.
-[17:32:45] [Server thread/INFO]: Named entity Rabbit['bunny'/443, l='ServerLevel[Testing World]', x=-198.68, y=4.00, z=218.67] died: bunny was tormented.
-[17:32:50] [Server thread/INFO]: Named entity Rabbit['bunny'/435, l='ServerLevel[Testing World]', x=-198.73, y=4.00, z=218.27] died: bunny was tormented.
-[17:33:07] [Server thread/INFO]: [Dev: Set own game mode to Survival Mode]
-[17:33:07] [Render thread/INFO]: [CHAT] Set own game mode to Survival Mode
-[17:33:35] [Server thread/INFO]: Dev was tormented.
-[17:33:35] [Render thread/INFO]: [CHAT] Dev was tormented.
-[17:33:44] [Server thread/INFO]: [Dev: Set own game mode to Creative Mode]
-[17:33:44] [Render thread/INFO]: [CHAT] Set own game mode to Creative Mode
-[17:34:05] [Server thread/INFO]: Saving and pausing game...
-[17:34:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testing World]'/minecraft:overworld
-[17:34:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testing World]'/minecraft:the_nether
-[17:34:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testing World]'/minecraft:the_end
-[17:34:05] [Server thread/INFO]: Dev lost connection: Disconnected
-[17:34:05] [Server thread/INFO]: Dev left the game
-[17:34:05] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[17:34:05] [Server thread/INFO]: Stopping server
-[17:34:05] [Server thread/INFO]: Saving players
-[17:34:05] [Server thread/INFO]: Saving worlds
-[17:34:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testing World]'/minecraft:overworld
-[17:34:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testing World]'/minecraft:the_nether
-[17:34:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testing World]'/minecraft:the_end
-[17:34:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (Testing World): All chunks are saved
-[17:34:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:34:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:34:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:34:06] [Render thread/INFO]: Stopping!
+[13:30:08] [Render thread/INFO]: Loaded 7 recipes
+[13:30:09] [Render thread/INFO]: Loaded 1137 advancements
+[13:30:09] [Render thread/INFO]: Injecting existing registry data into this CLIENT instance
+[07Dec2021 13:30:09.678] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:30:09] [Server thread/INFO]: Starting integrated minecraft server version 1.17.1
+[13:30:09] [Server thread/INFO]: Generating keypair
+[13:30:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:30:10] [Render thread/INFO]: Preparing spawn area: 0%
+[13:30:10] [Render thread/INFO]: Preparing spawn area: 4%
+[13:30:10] [Render thread/INFO]: Preparing spawn area: 75%
+[13:30:11] [Render thread/INFO]: Time elapsed: 1333 ms
+[13:30:11] [Server thread/INFO]: Changing view distance to 7, from 10
+[13:30:11] [Netty Local Client IO #0/INFO]: Connected to a modded server.
+[13:30:11] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7002069e
+[13:30:12] [Server thread/INFO]: Dev[local:E:60141429] logged in with entity id 55 at (-193.30000001192093, 4.0, 212.86294453336558)
+[13:30:12] [Server thread/INFO]: Dev joined the game
+[13:30:12] [Server thread/INFO]: Saving and pausing game...
+[13:30:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testing World]'/minecraft:overworld
+[13:30:12] [Render thread/INFO]: Loaded 172 advancements
+[13:30:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testing World]'/minecraft:the_nether
+[13:30:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testing World]'/minecraft:the_end
+[13:32:45] [Server thread/INFO]: Saving and pausing game...
+[13:32:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testing World]'/minecraft:overworld
+[13:32:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testing World]'/minecraft:the_nether
+[13:32:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testing World]'/minecraft:the_end
+[13:32:46] [Server thread/INFO]: Dev lost connection: Disconnected
+[13:32:46] [Server thread/INFO]: Dev left the game
+[13:32:46] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[13:32:46] [Server thread/INFO]: Stopping server
+[13:32:46] [Server thread/INFO]: Saving players
+[13:32:46] [Server thread/INFO]: Saving worlds
+[13:32:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testing World]'/minecraft:overworld
+[13:32:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testing World]'/minecraft:the_nether
+[13:32:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testing World]'/minecraft:the_end
+[13:32:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (Testing World): All chunks are saved
+[13:32:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:32:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:32:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:32:47] [Render thread/INFO]: Stopping!
