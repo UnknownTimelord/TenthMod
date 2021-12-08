@@ -30,11 +30,11 @@ guiScale:2
 particles:2
 maxFps:260
 difficulty:2
-graphicsMode:0
+graphicsMode:1
 ao:0
 biomeBlendRadius:2
 renderClouds:false
-resourcePacks:[]
+resourcePacks:["vanilla","mod_resources"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us

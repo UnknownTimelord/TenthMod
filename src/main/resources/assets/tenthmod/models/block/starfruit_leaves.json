@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "tenthmod:blocks/starfruit_leaves"
+  }
+}
