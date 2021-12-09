@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tenthmod:carambola_log"
+    }
+  ],
+  "result": {
+    "item": "tenthmod:carambola_planks",
+    "count": 4
+  }
+}

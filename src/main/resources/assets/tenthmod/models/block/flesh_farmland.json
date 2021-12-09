@@ -1,0 +1,7 @@
+{
+	"parent": "block/template_farmland",
+	"textures": {
+		"dirt": "tenthmod:blocks/torment_block",
+		"top": "tenthmod:blocks/torment_block"
+	}
+}

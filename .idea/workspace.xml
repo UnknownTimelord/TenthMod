@@ -5,48 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0fd6116-7a75-466d-b699-75f48840f9e2" name="Changes" comment="Added Torment item and Torment Block&#10;-Torment Block&#10;* Does damage to entities touching it">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/setup/ModTags.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/trees/StarfruitTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/world/gen/ModConfiguredFeatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/blockstates/carambola_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/blockstates/carambola_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/blockstates/starfruit_leaves.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/blockstates/starfruit_sapling.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/block/carambola_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/block/carambola_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/block/starfruit_leaves.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/block/starfruit_sapling.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/item/carambola_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/item/carambola_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/item/starfruit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/item/starfruit_leaves.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/item/starfruit_sapling.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/textures/blocks/carambola_log.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/textures/blocks/carambola_log_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/textures/blocks/carambola_planks.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/textures/blocks/starfruit_leaves.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/textures/blocks/starfruit_sapling.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/textures/items/starfruit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/leaves.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/logs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/axe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/hoe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/shovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/sword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_diamond_tool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/items/leaves.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/items/logs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/items/planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tenthmod/loot_tables/blocks/carambola_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tenthmod/loot_tables/blocks/carambola_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tenthmod/loot_tables/blocks/flesh_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tenthmod/loot_tables/blocks/starfruit_leaves.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tenthmod/loot_tables/blocks/starfruit_sapling.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tenthmod/loot_tables/blocks/torment_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tenthmod/loot_tables/blocks/vortex_furnace.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tenthmod/loot_tables/blocks/vortex_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/blocks/FleshFarmland.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/blockstates/flesh_farmland.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/block/flesh_farmland.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/models/item/flesh_farmland.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tenthmod/recipes/flesh_block.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
@@ -54,16 +17,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/TenthMod.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/TenthMod.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/TenthMod.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/TenthMod.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tenth/tenthmod/TenthMod.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/tenth/tenthmod/TenthMod.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tenth/tenthmod/setup/Register$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/tenth/tenthmod/setup/Register$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tenth/tenthmod/setup/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/tenth/tenthmod/setup/Register.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tenthmod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tenthmod/lang/en_us.json" afterDir="false" />
@@ -75,12 +34,12 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/DIM-1/data/raids.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/DIM1/data/raids_end.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/data/raids.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/entities/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Testing World/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/level.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/level.dat_old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
@@ -88,13 +47,19 @@
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/poi/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/poi/r.-1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/region/r.-1.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Testing World/region/r.-1.1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Testing World/region/r.-2.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Testing World/region/r.-2.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Testing World/region/r.-2.1.mca" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/region/r.0.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Testing World/region/r.0.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/region/r.0.1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Testing World/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Testing World/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/TenthMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/TenthMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/blocks/TormentBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/blocks/TormentBlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/setup/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tenth/tenthmod/setup/Register.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tenthmod/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tenthmod/recipes/torment_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tenthmod/recipes/carambola_planks.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,11 +129,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\amyst\IdeaProjects\TenthMod\src\main\resources\assets\tenthmod\models\item" />
+      <recent name="C:\Users\amyst\IdeaProjects\TenthMod\src\main\resources\assets\tenthmod\models\block" />
+      <recent name="C:\Users\amyst\IdeaProjects\TenthMod\src\main\resources\assets\tenthmod\blockstates" />
       <recent name="C:\Users\amyst\Documents\TenthMod\src\main\resources\assets\tenthmod\models\item" />
       <recent name="C:\Users\amyst\Documents\TenthMod\src\main\resources\data\tenthmod\loot_tables\blocks" />
-      <recent name="C:\Users\amyst\Documents\TenthMod\src\main\resources\assets\tenthmod\blockstates" />
-      <recent name="C:\Users\amyst\Documents\TenthMod\src\main\resources\assets\tenthmod\models\block" />
-      <recent name="C:\Users\amyst\Documents\TenthMod\src\main\resources\data\minecraft\tags\items" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\amyst\Documents\TenthMod\src\main\resources\data\minecraft\tags\blocks" />
@@ -253,7 +218,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
