@@ -1,27 +1,35 @@
 package com.tenth.tenthmod.world.gen;
 
+import com.google.common.collect.ImmutableList;
 import com.tenth.tenthmod.setup.Register;
 import net.minecraft.core.Registry;
 import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.data.worldgen.Features;
 import net.minecraft.util.valueproviders.ConstantInt;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.levelgen.RandomSource;
+import net.minecraft.world.level.levelgen.VerticalAnchor;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
 import net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration;
 import net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize;
 import net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlacer;
-import net.minecraft.world.level.levelgen.feature.stateproviders.RandomizedIntStateProvider;
 import net.minecraft.world.level.levelgen.feature.stateproviders.SimpleStateProvider;
 import net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlacer;
 
-import java.util.Random;
-
 
 public class ModConfiguredFeatures extends Features {
+
+    public static final ImmutableList<OreConfiguration.TargetBlockState> ORE_VORTEX_TARGET_LIST =
+            ImmutableList.of(OreConfiguration.target(OreConfiguration.Predicates.STONE_ORE_REPLACEABLES,
+                    Register.VORTEX_ORE.get().defaultBlockState()),
+                    OreConfiguration.target(OreConfiguration.Predicates.DEEPSLATE_ORE_REPLACEABLES,
+                    Register.VORTEX_ORE.get().defaultBlockState()));
+
+    public static final ConfiguredFeature<?, ?> ORE_VORTEX =
+            register("ore_vortex", Feature.ORE.configured(
+                    new OreConfiguration(ORE_VORTEX_TARGET_LIST, 10)).rangeTriangle(VerticalAnchor.absolute(0),
+                    VerticalAnchor.absolute(96)).squared().count(6));
 
     public static final ConfiguredFeature<TreeConfiguration, ?> STARFRUIT =
             register("starfruit", Feature.TREE.configured((

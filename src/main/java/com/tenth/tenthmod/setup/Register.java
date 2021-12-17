@@ -3,17 +3,15 @@ package com.tenth.tenthmod.setup;
 import com.tenth.tenthmod.TenthMod;
 import com.tenth.tenthmod.blockentities.TormentBlockEntity;
 import com.tenth.tenthmod.blockentities.VortexFurnaceEntity;
-import com.tenth.tenthmod.blocks.FleshFarmland;
+import com.tenth.tenthmod.blocks.*;
 import com.tenth.tenthmod.trees.StarfruitTree;
-import com.tenth.tenthmod.blocks.TormentBlock;
-import com.tenth.tenthmod.blocks.VortexFurnace;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.levelgen.feature.Feature;
+import net.minecraft.world.level.levelgen.feature.*;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fmllegacy.RegistryObject;
@@ -36,10 +34,9 @@ public class Register {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BLOCK_ENTITIES.register(FMLJavaModLoadingContext.get().getModEventBus());
-        FEATURES.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
-    // Items
+    // Misc Items
     public static final RegistryObject<Item> RAW_VORTEX = ITEMS.register("raw_vortex", ()-> new Item(new Item.Properties().tab(TENTH_MOD_TAB)));
     public static final RegistryObject<Item> VORTEX = ITEMS.register("vortex", ()-> new Item(new Item.Properties().tab(TENTH_MOD_TAB)));
 
@@ -48,7 +45,7 @@ public class Register {
     public static final RegistryObject<Item> CHRONAL_UTILIZER = ITEMS.register("chronal_utilizer", ()-> new Item(new Item.Properties().tab(TENTH_MOD_TAB)));
     public static final RegistryObject<Item> STARFRUIT = ITEMS.register("starfruit", ()-> new Item(new Item.Properties().tab(TENTH_MOD_TAB).food(new FoodProperties.Builder().fast().saturationMod(4).nutrition(4).build())));
 
-    // Blocks
+    // Misc Blocks
     public static final RegistryObject<Block> VORTEX_ORE = BLOCKS.register("vortex_ore", ()-> new OreBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.0f), UniformInt.of(3, 3)));
     public static final RegistryObject<Item> VORTEX_ORE_ITEM = ITEMS.register("vortex_ore", ()-> new BlockItem(VORTEX_ORE.get(), new Item.Properties().tab(TENTH_MOD_TAB)));
     public static final RegistryObject<Block> TORMENT_BLOCK = BLOCKS.register("torment_block", ()-> new TormentBlock(BlockBehaviour.Properties.of(Material.DIRT).sound(SoundType.SOUL_SOIL).requiresCorrectToolForDrops().strength(1.0f).noOcclusion()));
@@ -73,4 +70,10 @@ public class Register {
     public static final RegistryObject<Item> CARAMBOLA_LOG_ITEM = ITEMS.register("carambola_log", ()-> new BlockItem(CARAMBOLA_LOG.get(), new Item.Properties().tab(TENTH_MOD_TAB)));
     public static final RegistryObject<Block> CARAMBOLA_PLANKS = BLOCKS.register("carambola_planks", ()-> new Block(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(1.0f)));
     public static final RegistryObject<Item> CARAMBOLA_PLANKS_ITEM = ITEMS.register("carambola_planks", ()-> new BlockItem(CARAMBOLA_PLANKS.get(), new Item.Properties().tab(TENTH_MOD_TAB)));
+
+    // Custom Biome Blocks
+    public static final RegistryObject<Block> APPLE_GRASS = BLOCKS.register("apple_grass", ()-> new AppleGrass(BlockBehaviour.Properties.of(Material.GRASS).randomTicks().sound(SoundType.GRASS).strength(1.0f)));
+    public static final RegistryObject<Item> APPLE_GRASS_ITEM = ITEMS.register("apple_grass", ()-> new BlockItem(APPLE_GRASS.get(), new Item.Properties().tab(TENTH_MOD_TAB)));
+    public static final RegistryObject<Block> APPLE_BUSH = BLOCKS.register("apple_bush", ()-> new AppleBush(BlockBehaviour.Properties.of(Blocks.WHEAT.defaultBlockState().getMaterial()).strength(2.0f).noOcclusion().noCollission().sound(SoundType.GRASS)));
+    public static final RegistryObject<Item> APPLE_BUSH_ITEM = ITEMS.register("apple_bush", ()-> new BlockItem(APPLE_BUSH.get(), new Item.Properties().tab(TENTH_MOD_TAB)));
 }

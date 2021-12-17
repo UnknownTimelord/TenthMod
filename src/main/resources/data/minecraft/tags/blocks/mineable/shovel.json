@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "tenthmod:torment_block",
-    "tenthmod:flesh_block"
+    "tenthmod:flesh_block",
+    "tenthmod:apple_grass"
   ]
 }

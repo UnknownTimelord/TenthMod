@@ -32,6 +32,8 @@ public class TenthMod {
         ItemBlockRenderTypes.setRenderLayer(Register.TORMENT_BLOCK.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(Register.STARFRUIT_SAPLING.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(Register.STARFRUIT_LEAVES.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(Register.APPLE_GRASS.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(Register.APPLE_BUSH.get(), RenderType.cutout());
     }
 
     private void setup(final FMLCommonSetupEvent event) {

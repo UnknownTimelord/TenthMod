@@ -31,7 +31,7 @@ particles:2
 maxFps:260
 difficulty:2
 graphicsMode:1
-ao:0
+ao:2
 biomeBlendRadius:2
 renderClouds:false
 resourcePacks:["vanilla","mod_resources"]
